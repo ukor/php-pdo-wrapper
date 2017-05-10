@@ -15,7 +15,7 @@
     },
   "autoload": {
     "psr-4": {
-      "ukorJidechi\\db_handler": "src/"
+      "ukorJidechi\\db_handler\\": "src/"
   }
 }
 }
