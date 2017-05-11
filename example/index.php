@@ -6,11 +6,10 @@
  * Time: 10:33 AM
  */
 
-require_once (__DIR__."/../src/config.php");
 require_once (__DIR__."/../src/class.db.php");
 require_once (__DIR__."/../src/class.db_handler.php");
 //$foo = new \ukorJidechi\db($config);
-$bar = new \ukorJidechi\db_handler\db_handler($config);
+$bar = new \ukorJidechi\php_pdo_wrapper\database_handler();
 echo "<br /><pre>";
 print_r($foo);
 print_r($bar);
